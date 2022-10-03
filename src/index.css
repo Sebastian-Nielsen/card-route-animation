@@ -15,8 +15,8 @@
   width: 0;
 }
 .no-scroll::-webkit-scrollbar-track {
-  border-left: 0 solid rgba(255, 255, 255, 0.08);
-  border-left: 0 solid white;
+  border-left: 0 solid rgba(25, 25, 25, 0.08);
+  border-left: 0 solid rgb(25, 25, 25);
 }
 
 .hideq {
@@ -34,7 +34,7 @@
   width: 20px;
 }
 .overlay::-webkit-scrollbar-track {
-  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  border-left: 1px solid rgba(25, 25, 25, 0.08);
   border-left: 1px solid black;
   background: grey;
 }
@@ -54,7 +54,7 @@
   min-width: 250px;
   max-width: 250px;
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(25, 25, 25, 0.1);
   box-shadow: 0 0 10px 0 black;
   overflow: hidden;
 }
@@ -101,7 +101,7 @@ section#profile > .header {
   min-width: 100%;
   border-radius: 1rem;
   box-shadow: 0 0 10px 0 black;
-  background: white;
+  background: rgb(25, 25, 25);
   overflow: hidden;
 }
 section#profile > .header > * {

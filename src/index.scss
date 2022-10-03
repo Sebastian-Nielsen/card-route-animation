@@ -13,8 +13,8 @@
 	width: 0;
   }
   &::-webkit-scrollbar-track {
-	border-left: 0 solid rgba(white,0.08);
-	border-left: 0 solid white;
+	border-left: 0 solid rgba(rgb(25,25,25),0.08);
+	border-left: 0 solid rgb(25,25,25);
   }
 }
 
@@ -35,7 +35,7 @@
 	width: 20px;
   }
   &::-webkit-scrollbar-track {
-	border-left: 1px solid rgba(white,0.08); // 0.05
+	border-left: 1px solid rgba(rgb(25,25,25),0.08); // 0.05
 	border-left: 1px solid black; // 0.05
 	background: grey;
   }
@@ -58,7 +58,7 @@
   max-width: 250px;
 
   border-radius: 5px;
-  background: rgba(white,0.1);
+  background: rgba(rgb(25,25,25),0.1);
   box-shadow: 0 0 10px 0 black;
   overflow: hidden;
 
@@ -117,7 +117,7 @@ section#profile > .header {
   min-width: 100%;
   border-radius: 1rem;
   box-shadow: 0 0 10px 0 black;
-  background: white;
+  background: rgb(25,25,25);
   overflow: hidden;
 }
 section#profile > .header .profile-picture {
