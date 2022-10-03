@@ -35,7 +35,7 @@ export const SearchResults = ({navigate, location}: SearchResultsProps) => {
 	}))
 
 	return <>
-		<section id="search-results" style={{position: "relative"}}>
+		<section id="search-results" style={{position: "relative", padding: "50px 100px 0 100px"}}>
 
 			{results?.map((profilecarddata: any, i: number) =>
 				<SearchResult key={i} data={profilecarddata} />
